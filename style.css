@@ -1,0 +1,197 @@
+.container-fluid {
+    background-image: url("BgSlider.png");
+    width: 100%;
+    color: white;
+    background-size: cover;
+}
+
+.center{
+    display: table-cell;
+    height: 400px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.text-3{
+    color:blue;
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+}
+
+.hr{
+        width: 100%;
+        height: 120px;
+        background-color: red;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-width: 2px;
+        border-color: green;
+}
+
+#abc{
+    display:none;
+}
+
+#click {
+    cursor: pointer;
+}
+
+.box {
+    width: 200px;
+    -webkit-transition: width 2s;
+    transition: width .5s;
+  }
+  .box:hover {
+    width: 215px;
+  }
+
+#abcd{
+    display: none;
+}
+
+.button{
+    display: none;
+    }
+    label span{
+      display: inline-block;
+      width: 50px;
+      height: 20px;
+      background: #ccc;
+      text-align: center;
+    }
+    input:checked + span{
+      background: #f00;
+    }
+.body
+{
+    animation: change-background 10s ease infinity;
+}
+
+@keyframes change-background{
+    0%{
+        background: #f00;
+    }
+    50%{
+        background: rgb(0, 162, 255);
+
+    }
+    100%{
+        background: rgb(0, 255, 255);
+    }
+}
+
+/*медиа скрин*/
+
+@media screen and (max-width: 1200px) 
+{
+	.container{
+		width: 960px;
+	}
+}
+
+@media screen and (max-width: 992px) 
+{
+	.container{
+		width: 720px;
+	}
+	
+	
+    .box{
+        width: 80%;
+    }
+
+    .phone
+    {
+        width: 90%;
+    }
+    .back{
+        background-color: rgb(139, 0, 132);
+    }
+    .img1
+    {
+        width: 80%
+    }
+
+}
+
+@media screen and (max-width: 768px) 
+{
+	.container{
+		width: 540px;
+	}
+
+	.button{
+		width: 100%;
+	}
+	.form-control{
+		margin: 60px auto 0  auto;
+		width: 90%;
+	}
+    .box{
+        width: 80%;
+    }
+  
+  .prods{
+      display: block!important;
+  }  
+  .phone
+  {
+      width: 90%;
+  }
+  .back{
+    background-color: rgb(139, 0, 132);
+}
+.img1
+    {
+        width: 80%
+    }
+}
+
+@media screen and (max-width: 576px) 
+{
+	.container{
+		width: 90%;
+		text-align: center;
+	}
+
+	.footer{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+    .box{
+        width: 80%;
+    }
+    .form-control{
+		margin: 60px auto 0  auto;
+		width: 90%;
+	}
+    .prods{
+        display: block !important;
+    }  
+    .phone
+    {
+        width: 90%;
+    }
+  
+    .back{
+        background-color: rgb(139, 0, 132);
+    }
+    .img1
+    {
+        width: 80%
+    }
+ 
+}
+
+
+
+
+
+
+  
+
